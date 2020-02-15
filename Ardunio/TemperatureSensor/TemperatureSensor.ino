@@ -1,5 +1,5 @@
 /*
-   Sesorium Temperature sensor
+   Sensorium Temperature sensor
 
   Make sure the sensor is found, you can also pass in a different i2c
   address with tempsensor.begin(0x19) for example, also can be left in blank for default address use

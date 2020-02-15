@@ -1,5 +1,5 @@
 /*
-   Sensorium UltraSonic sensor
+   Sensorium Three Axis Gyro sensor
 
    MMA8451
    This is an example for the Adafruit MMA8451 Accel breakout board

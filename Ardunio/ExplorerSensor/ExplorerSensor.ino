@@ -1,5 +1,5 @@
 /*
-   Sesorium template processor
+   Sensorium template processor
 */
 #include <ArduinoJson.h>
 #include "messages.h"

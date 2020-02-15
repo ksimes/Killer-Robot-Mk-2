@@ -1,5 +1,5 @@
 /*
-   Sesorium Real Time clock processor
+   Sensorium Real Time clock processor
 */
 #include <ArduinoJson.h>
 #include "messages.h"
