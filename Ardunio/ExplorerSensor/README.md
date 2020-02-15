@@ -1,4 +1,5 @@
-#Explorer Sensor
+Explorer Sensor
+===============
 
 This is the base template to be used to create new Arduino Nano sensor programs.
 The code follows the standard Arduino layout of Setup and Loop routines but it uses

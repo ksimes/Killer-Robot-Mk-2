@@ -1,4 +1,5 @@
-#Temperature Sensor
+Temperature Sensor
+===========================
 
 This is the program to handle data coming in from a temperature sensor chip MCP9808.
 

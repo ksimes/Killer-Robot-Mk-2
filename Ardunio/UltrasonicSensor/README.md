@@ -1,4 +1,5 @@
-#Ultrasonic distance Sensor
+Ultrasonic distance Sensor
+===========================
 
 This is the program to handle data coming in from a Ultrasonic distance 
 sensor HC-SR04 Ping distance.

@@ -1,4 +1,5 @@
-#Explorer (Giant Killer Robot Mark-2) 
+Explorer (Giant Killer Robot Mark-2) 
+===========================
 
 This is the project holding a Java controller program which checks all USB 
 channels to see if the are active, i.e. have a serial communication port active
@@ -12,3 +13,9 @@ with these sensor readings.
 the code is for pluming into a larger progect and may be part of a revamp of the 
 Giant Killer Robot Mk-1 code.
  
+Build with
+=======
+- Windows 10.0 - AMD64
+- Gradle 4.4
+- Java 1.8
+- Arduino IDE 1.8.9

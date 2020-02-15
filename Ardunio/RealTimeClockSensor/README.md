@@ -1,4 +1,5 @@
-#RealTimeClock Sensor
+RealTimeClock Sensor
+==================
 
 This is the  code to pick up data from a standard Real Time Clock chip DS1307.
 

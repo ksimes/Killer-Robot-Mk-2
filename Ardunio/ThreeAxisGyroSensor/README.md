@@ -1,4 +1,5 @@
-#Three Axis Gyro Sensor
+Three Axis Gyro Sensor
+===========================
 
 This is the program to handle data coming in from a Three Axis Gyro chip MMA8451.
 
