@@ -1,4 +1,4 @@
-package com.stronans.explorertest.core;
+package com.stronans.explorertest.device;
 
 import com.pi4j.io.serial.Serial;
 import com.pi4j.io.serial.SerialDataEvent;
@@ -35,7 +35,7 @@ public class SerialComms {
     private ArrayBlockingQueue<String> messages = new ArrayBlockingQueue<>(20);
     private List<MessageListener> listeners = new ArrayList<>();
 
-    public SerialComms(String port, int speed) throws InterruptedException {
+    public SerialComms(String port, int speed) {
         if (port != null) {
             comPort = port;
         }

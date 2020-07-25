@@ -24,7 +24,7 @@ const String station = "Red";
 const long sleepTimeS = 10000;
 const String sensorType = "GYR";   // What is the SensorType
 
-// Message processor comming in from Rasp Pi controller
+// Message processor comming in from Rasp Pi overController
 Messages *messages;
 // Allocate the JSON documents
 //
@@ -35,7 +35,7 @@ Messages *messages;
 StaticJsonDocument<300> postData;
 JsonObject positionJSON, rawJSON, accelerationJSON, orientationJSON;
 
-// Returns data as a JSON message to the controller
+// Returns data as a JSON message to the overController
 static void sendData()
 {
   // Generate the minified JSON and send it to the Serial port.
@@ -77,7 +77,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
 
-  // Anything from the controller?
+  // Anything from the overController?
   if (messages->msgAvalable()) {
     String msg = messages->read(false);
   }

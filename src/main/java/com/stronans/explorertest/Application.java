@@ -1,6 +1,6 @@
 package com.stronans.explorertest;
 
-import com.stronans.explorertest.core.Controller;
+import com.stronans.explorertest.core.OverController;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,8 +13,7 @@ public class Application {
     public static void main(String[] args) {
         log.info("Starting the Explorer Test..");
 
-        Controller controller = new Controller();
-
-        controller.run();
+        OverController overController = new OverController();
+        overController.run();
     }
 }

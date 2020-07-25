@@ -4,7 +4,6 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 
-
 sourceCompatibility = 1.8
 
 repositories {
@@ -14,7 +13,12 @@ repositories {
 mainClassName = 'com.stronans.explorertest.Application'
 
 dependencies {
+
+//    testImplementation("org.junit:junit:4.12")
+//    testRuntimeOnly("org.junit:junit:4.12")
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
     compile group: 'com.pi4j', name: 'pi4j-core', version: '1.2'
     compile group: 'com.pi4j', name: 'pi4j-device', version: '1.2'
     compile group: 'com.pi4j', name: 'pi4j-gpio-extension', version: '1.2'
